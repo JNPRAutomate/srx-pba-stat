@@ -28,6 +28,8 @@ version 0.13
 
 `op pba-stat trace time` (hidden tracing displaying time spent in various steps)
 
+`op pba-stat nat-pool pool-1 max-blocks 20000 node 0` (complete example)
+
 # Example output 
 The mostly self-explanatory output below is from a synthetic traffic run. Conclusion of below could be increase of block size from 128 to 256 and overall NAT pool size as well.
 ```
