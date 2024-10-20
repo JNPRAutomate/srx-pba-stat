@@ -45,7 +45,7 @@ NAT-IP : #int-hosts/alloc blk
 ------------------------------
 Int-hosts per NAT-IP stats       // stats of maximum/minimum/avg number of hosts using one NAT pool IP
 --------------->
-max             : 205
+max             : 205            
 min             : 204
 avg             : 204.80
 ------------------------------
@@ -66,15 +66,15 @@ utilization     : 80.9%
 ------------------------------
 Int-host stats
 --------------->
-unique hosts    : 13107
+unique hosts    : 13107          
 avg blk         : 1.99
-total sess      : 2043455
-max sess        : 204
-avg sess        : 155.9
+total sess      : 2043455        // session terminology instead of ports (e.g., GRE doesn't have port)
+max sess        : 204            // maximum number of sessions per endpoint (trigger to look-up using port-threshold)
+avg sess        : 155.9          // average sessions per endpoint
 ------------------------------
 Stats per alloc blk cohort 
 --------------->
-blocks/hosts    : 1/177          // 177 endpoints has 1 block
+blocks/hosts    : 1/177          // 177 endpoints have 1 block
 blocks/hosts    : 2/12871        // 12871 endpoints 2 blocks
 blocks/hosts    : 3/59
 ----------------
@@ -82,12 +82,12 @@ blk/percent     : 1/1.4%         // percentual representation of above
 blk/percent     : 2/98.2%
 blk/percent     : 3/0.5%
 ----------------
-blk/max sess    : 1/128          // endpoints with 1 block have max 128 sessions
-blk/max sess    : 2/204          // endpoints with 2 blocks have max 204 sessions
+blk/max sess    : 1/128          // endpoints with 1 block have max of 128 sessions
+blk/max sess    : 2/204          // endpoints with 2 blocks have max of 204 sessions
 blk/max sess    : 3/195
 ----------------
-blk/avg sess    : 1/124          // endpoints with 1 block have avg 124 sessions
-blk/avg sess    : 2/156          // endpoints with 2 blocks have avg 156 sessions
+blk/avg sess    : 1/124          // endpoints with 1 block have on avg 124 sessions
+blk/avg sess    : 2/156          // endpoints with 2 blocks have on avg 156 sessions
 blk/avg sess    : 3/171 
 ------------------------------
 ```
