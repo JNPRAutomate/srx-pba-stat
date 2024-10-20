@@ -17,10 +17,15 @@ version 0.13
 # Example usage:
 
 `op pba-stat` (would execute if there is only one PBA enabled pool and no chassis cluster) 
+
 `op pba-stat nat-pool [pool-name]` (retrieve stats for specified NAT pool)
+
 `op pba-stat node [0|1]` (in case of chassis cluster node must be selected)
+
 `op pba-stat max-blocks 20000` (to override default limit of 10.000 analyzed blocks)
+
 `op pba-stat port-threshold [thresold]` (print hosts with ports (sessions) >= threshold)
+
 `op pba-stat trace time` (hidden tracing displaying time spent in various steps)
 
 # Example output 
