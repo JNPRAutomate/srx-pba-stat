@@ -29,7 +29,7 @@ version 0.13
 `op pba-stat trace time` (hidden tracing displaying time spent in various steps)
 
 # Example output 
-The mostly self-explanatory output below is from a synthetic traffic run
+The mostly self-explanatory output below is from a synthetic traffic. Conclusion of below could be increase of block size from 128 to 256.
 ```
 > op pba-stat nat-pool pool-1 max-blocks 30000    
 ------------------------------
