@@ -1,5 +1,5 @@
 # pba-stat
-pba-stat is a Junos SRX on-box Python script that provides insights into a specified Port Block Allocation enabled NAT pool for the purpose of tuning PBA parameters
+pba-stat is a Junos SRX on-box Python script that provides insights into a specified Port Block Allocation enabled NAT pool for the purpose of tuning PBA parameters (block size and maximum of allocated blocks). Subpar PBA settings can lead to waste of resources, service impact, unnecessary allocation/de-allocation logging, and more.
 
 version 0.13
 
