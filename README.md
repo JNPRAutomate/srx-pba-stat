@@ -24,7 +24,7 @@ version 0.13
 
 `op pba-stat max-blocks 20000` (to override default limit of 10.000 analyzed blocks)
 
-`op pba-stat port-threshold [thresold]` (print hosts with ports (sessions) >= threshold)
+`op pba-stat port-threshold [threshold]` (print hosts with ports (sessions) >= threshold)
 
 `op pba-stat trace time` (hidden tracing displaying time spent in various steps)
 
