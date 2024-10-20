@@ -109,12 +109,13 @@ set system scripts op file pba-stat.py arguments max-blocks description "overrid
 set system scripts language python3
 ```
 
+To avoid the `CSCRIPT_SECURITY_WARNING` event log regarding unsigned script execution
+
+`set system scripts op file pba-stat.py checksum sha-256` + output from: `% sha256 pba-stat.py`
+
 Apply the group when used
 
 `set apply-groups op-pba-stat`
 
 
-To avoid the `CSCRIPT_SECURITY_WARNING` event log regarding unsigned script execution
 
-```
-set system scripts op file pba-stat.py checksum sha-256 + output from: % sha256 pba-stat.py
