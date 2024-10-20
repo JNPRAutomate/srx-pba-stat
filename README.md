@@ -41,7 +41,7 @@ NAT-IP : #int-hosts/alloc blk
 203.0.113.126   : 204/407
 203.0.113.127   : 204/405
 ------------------------------
-Int-hosts per NAT-IP stats       // stats of maximum/minimum/avg) number of hosts using one NAT pool IP
+Int-hosts per NAT-IP stats       // stats of maximum/minimum/avg number of hosts using one NAT pool IP
 --------------->
 max             : 205
 min             : 204
