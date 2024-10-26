@@ -182,7 +182,7 @@ def analyze_and_print(
 
     for blocks, hosts in sorted(block_count_hosts.items()):
         # prints how many hosts have specific number of allocated blocks
-        print(f"blocks/hosts    : {blocks}/{hosts}")
+        print(f"blk/hosts    : {blocks}/{hosts}")
     print("-" * 16)
 
     record_time_trace("analyze_and_print 3")
