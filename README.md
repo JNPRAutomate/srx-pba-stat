@@ -37,7 +37,7 @@ The mostly self-explanatory output below is from a synthetic traffic run. Conclu
 ------------------------------
 NAT-IP : #int-hosts/alloc blk    
 --------------->
-203.0.113.64    : 205/408        // specific NAT pool IP serves 205 endpoints with 408 allocate blocks
+203.0.113.64    : 205/408        // specific NAT pool IP serves 205 endpoints with 408 allocated blocks
 203.0.113.65    : 205/405
 <SNIP>
 203.0.113.126   : 204/407
